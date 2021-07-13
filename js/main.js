@@ -86,9 +86,9 @@ function cityStyle(f) {
   }
   if (dataPool[p.TOWNCODE]) {
     if (dataPool[p.TOWNCODE].population > dataPool[p.TOWNCODE][currentKey]) {
-      color = '#57ccdd';
+      color = '#40B0A6';
     } else {
-      color = '#cbdd57';
+      color = '#E1BE6A';
     }
   }
   var textColor = '#000000';
